@@ -15,7 +15,7 @@ class Scraper
       course.description = post.css("p").text
     end
   end
-  binding.pry
+  # binding.pry
   
   def print_courses
     self.make_courses
@@ -32,5 +32,5 @@ end
 
 Scraper.new.get_page
 
-
+binding.pry
 
